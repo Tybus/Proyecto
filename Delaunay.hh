@@ -4,6 +4,7 @@
 #include "HE_vert.hh"
 #include<string>
 #include<iostream>
+#define NULL 0
 using namespace std
 class Delaunay{
     public:
