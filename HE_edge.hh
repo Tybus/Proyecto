@@ -2,7 +2,10 @@
 #define HE_EDGE_H
 #include "HE_face.hh"
 #include "HE_vert.hh"
-#define NULL 0
+#include<string>
+#include<iostream>
+class HE_face;
+class HE_vert;
 class HE_edge
 {
     public:
@@ -14,6 +17,4 @@ class HE_edge
         HE_face* face;
         HE_edge* next;
 };
-class HE_face;
-class HE_vert;
 #endif // HE_EDGE_H

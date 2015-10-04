@@ -1,14 +1,12 @@
 #include "HE_vert.hh"
 
 HE_vert::HE_vert(){
-    this->x = NULL;
-    this->y = NULL;
     this->edge = NULL;
 }
-HE_vert::HE_vert(double x, double y, HE_edge* edge);
-    this->x = x;
-    this->y = y;
+HE_vert::HE_vert(Point2D point, HE_edge* edge){
+    this->point = point;
     this->edge = edge;
+    }
 HE_vert::~HE_vert(){
 }
 

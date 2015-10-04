@@ -1,8 +1,9 @@
 #ifndef HE_FACE_H
 #define HE_FACE_H
 #include "HE_edge.hh"
-#define NULL 0
-
+#include<string>
+#include<iostream>
+class HE_edge;
 class HE_face
 {
     public:
@@ -11,6 +12,6 @@ class HE_face
         ~HE_face(void);
         HE_edge* edge;
 };
-class HE_edge;
+
 
 #endif // HE_FACE_H
