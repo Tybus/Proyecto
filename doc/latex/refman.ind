@@ -1,0 +1,98 @@
+\begin{theindex}
+
+  \item {assignn}
+    \subitem {Point2\discretionary {-}{}{}D}, \hyperpage{8}
+
+  \indexspace
+
+  \item {Convex\discretionary {-}{}{}Hull}, \hyperpage{3}
+
+  \indexspace
+
+  \item {edge}
+    \subitem {H\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}face}, 
+		\hyperpage{5}
+    \subitem {H\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}vert}, 
+		\hyperpage{6}
+
+  \indexspace
+
+  \item {get}
+    \subitem {Point2\discretionary {-}{}{}D}, \hyperpage{8}
+  \item {get\discretionary {-}{}{}Am}
+    \subitem {Point2\discretionary {-}{}{}D}, \hyperpage{8}
+  \item {get\discretionary {-}{}{}Left\discretionary {-}{}{}Most}
+    \subitem {Point2\discretionary {-}{}{}D}, \hyperpage{8}
+  \item {getx}
+    \subitem {Point2\discretionary {-}{}{}D}, \hyperpage{8}
+  \item {gety}
+    \subitem {Point2\discretionary {-}{}{}D}, \hyperpage{8}
+
+  \indexspace
+
+  \item {H\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}edge}, 
+		\hyperpage{3}
+    \subitem {H\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}edge}, 
+		\hyperpage{4}
+    \subitem {H\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}edge}, 
+		\hyperpage{4}
+  \item {H\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}face}, 
+		\hyperpage{4}
+    \subitem {edge}, \hyperpage{5}
+    \subitem {H\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}face}, 
+		\hyperpage{5}
+    \subitem {H\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}face}, 
+		\hyperpage{5}
+  \item {H\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}vert}, 
+		\hyperpage{5}
+    \subitem {edge}, \hyperpage{6}
+    \subitem {H\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}vert}, 
+		\hyperpage{6}
+    \subitem {H\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}vert}, 
+		\hyperpage{6}
+    \subitem {point}, \hyperpage{6}
+
+  \indexspace
+
+  \item {on\discretionary {-}{}{}Left}
+    \subitem {Point2\discretionary {-}{}{}D}, \hyperpage{8}
+  \item {operator-\/}
+    \subitem {Point2\discretionary {-}{}{}D}, \hyperpage{8}
+  \item {operator==}
+    \subitem {Point2\discretionary {-}{}{}D}, \hyperpage{8}
+
+  \indexspace
+
+  \item {point}
+    \subitem {H\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}vert}, 
+		\hyperpage{6}
+  \item {Point2\discretionary {-}{}{}D}, \hyperpage{6}
+    \subitem {assignn}, \hyperpage{8}
+    \subitem {get}, \hyperpage{8}
+    \subitem {get\discretionary {-}{}{}Am}, \hyperpage{8}
+    \subitem {get\discretionary {-}{}{}Left\discretionary {-}{}{}Most}, 
+		\hyperpage{8}
+    \subitem {getx}, \hyperpage{8}
+    \subitem {gety}, \hyperpage{8}
+    \subitem {on\discretionary {-}{}{}Left}, \hyperpage{8}
+    \subitem {operator-\/}, \hyperpage{8}
+    \subitem {operator==}, \hyperpage{8}
+    \subitem {Point2\discretionary {-}{}{}D}, \hyperpage{7}
+    \subitem {Point2\discretionary {-}{}{}D}, \hyperpage{7}
+    \subitem {set\discretionary {-}{}{}Next}, \hyperpage{9}
+    \subitem {sett}, \hyperpage{9}
+    \subitem {setx}, \hyperpage{9}
+    \subitem {sety}, \hyperpage{9}
+
+  \indexspace
+
+  \item {set\discretionary {-}{}{}Next}
+    \subitem {Point2\discretionary {-}{}{}D}, \hyperpage{9}
+  \item {sett}
+    \subitem {Point2\discretionary {-}{}{}D}, \hyperpage{9}
+  \item {setx}
+    \subitem {Point2\discretionary {-}{}{}D}, \hyperpage{9}
+  \item {sety}
+    \subitem {Point2\discretionary {-}{}{}D}, \hyperpage{9}
+
+\end{theindex}

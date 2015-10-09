@@ -1,8 +1,4 @@
 var searchData=
 [
-  ['get',['get',['../class_point2_d.html#a59c6ec04c22e19fe1edc9f62665343d4',1,'Point2D']]],
-  ['getam',['getAm',['../class_point2_d.html#ad58676dabebce9c9f48dd143c098e14a',1,'Point2D']]],
-  ['getleftmost',['getLeftMost',['../class_point2_d.html#aa59df8b613913c720f865d4fd82e2452',1,'Point2D']]],
-  ['getx',['getx',['../class_point2_d.html#abe2430aa7078f09496b538da52ef35cb',1,'Point2D']]],
-  ['gety',['gety',['../class_point2_d.html#ab01bf498063e4a6d29fbcff95b06e092',1,'Point2D']]]
+  ['convexhull',['ConvexHull',['../class_convex_hull.html#a41e888f95597a80d42a90060e1dba114',1,'ConvexHull::ConvexHull(void)'],['../class_convex_hull.html#ab35ffd84a05135cf8e4c6f98db103274',1,'ConvexHull::ConvexHull(Point2D)'],['../class_convex_hull.html#a3c2424e4f2e68b38285a236ea33014fe',1,'ConvexHull::ConvexHull(Point2D, HE_face *)'],['../class_convex_hull.html#abd4e80afef71c40593d8c50233bde05d',1,'ConvexHull::ConvexHull(const ConvexHull &amp;obj)']]]
 ];

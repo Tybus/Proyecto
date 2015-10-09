@@ -1,30 +1,90 @@
-\hypertarget{class_convex_hull}{\section{Convex\-Hull Class Reference}
+\hypertarget{class_convex_hull}{\section{Referencia de la Clase Convex\-Hull}
 \label{class_convex_hull}\index{Convex\-Hull@{Convex\-Hull}}
 }
-\subsection*{Public Member Functions}
+
+
+Clase \hyperlink{class_convex_hull}{Convex\-Hull}.  
+
+
+
+
+{\ttfamily \#include $<$Convex\-Hull.\-hh$>$}
+
+\subsection*{Métodos públicos}
 \begin{DoxyCompactItemize}
 \item 
-\hypertarget{class_convex_hull_ab35ffd84a05135cf8e4c6f98db103274}{{\bfseries Convex\-Hull} (\hyperlink{class_point2_d}{Point2\-D})}\label{class_convex_hull_ab35ffd84a05135cf8e4c6f98db103274}
+\hyperlink{class_convex_hull_a41e888f95597a80d42a90060e1dba114}{Convex\-Hull} (void)
+\begin{DoxyCompactList}\small\item\em Método constructor sin parámetros. \end{DoxyCompactList}\item 
+\hyperlink{class_convex_hull_ab35ffd84a05135cf8e4c6f98db103274}{Convex\-Hull} (\hyperlink{class_point2_d}{Point2\-D})
+\begin{DoxyCompactList}\small\item\em Método constructor con parámetro \hyperlink{class_point2_d}{Point2\-D}. \end{DoxyCompactList}\item 
+\hyperlink{class_convex_hull_a3c2424e4f2e68b38285a236ea33014fe}{Convex\-Hull} (\hyperlink{class_point2_d}{Point2\-D}, \hyperlink{class_h_e__face}{H\-E\-\_\-face} $\ast$)
+\begin{DoxyCompactList}\small\item\em Método constructor con parámetros \hyperlink{class_point2_d}{Point2\-D} y H\-E\-\_\-face$\ast$. \end{DoxyCompactList}\item 
+\hyperlink{class_convex_hull_abd4e80afef71c40593d8c50233bde05d}{Convex\-Hull} (const \hyperlink{class_convex_hull}{Convex\-Hull} \&obj)
+\begin{DoxyCompactList}\small\item\em Método constructor de copia. \end{DoxyCompactList}\item 
+\hypertarget{class_convex_hull_ada73a790143a97f4dfe13580c026c6db}{\hyperlink{class_convex_hull_ada73a790143a97f4dfe13580c026c6db}{$\sim$\-Convex\-Hull} (void)}\label{class_convex_hull_ada73a790143a97f4dfe13580c026c6db}
 
-\item 
-\hypertarget{class_convex_hull_a3c2424e4f2e68b38285a236ea33014fe}{{\bfseries Convex\-Hull} (\hyperlink{class_point2_d}{Point2\-D}, \hyperlink{class_h_e__face}{H\-E\-\_\-face} $\ast$)}\label{class_convex_hull_a3c2424e4f2e68b38285a236ea33014fe}
-
-\item 
-\hypertarget{class_convex_hull_abd4e80afef71c40593d8c50233bde05d}{{\bfseries Convex\-Hull} (const \hyperlink{class_convex_hull}{Convex\-Hull} \&obj)}\label{class_convex_hull_abd4e80afef71c40593d8c50233bde05d}
-
-\end{DoxyCompactItemize}
-\subsection*{Public Attributes}
+\begin{DoxyCompactList}\small\item\em Método destructor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Atributos públicos}
 \begin{DoxyCompactItemize}
 \item 
-\hypertarget{class_convex_hull_a0ff31f4508984cd36c2558b517c4d9ac}{\hyperlink{class_h_e__face}{H\-E\-\_\-face} $\ast$ {\bfseries convexhull}}\label{class_convex_hull_a0ff31f4508984cd36c2558b517c4d9ac}
+\hypertarget{class_convex_hull_a0ff31f4508984cd36c2558b517c4d9ac}{\hyperlink{class_h_e__face}{H\-E\-\_\-face} $\ast$ \hyperlink{class_convex_hull_a0ff31f4508984cd36c2558b517c4d9ac}{convexhull}}\label{class_convex_hull_a0ff31f4508984cd36c2558b517c4d9ac}
 
+\begin{DoxyCompactList}\small\item\em Puntero a la cara donde se guardó el convex\-Hull. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Descripción detallada}
+Clase \hyperlink{class_convex_hull}{Convex\-Hull}. 
+
+Esta clase implementa un \hyperlink{class_convex_hull}{Convex\-Hull} de un conjunto de puntos 
+
+\subsection{Documentación del constructor y destructor}
+\hypertarget{class_convex_hull_a41e888f95597a80d42a90060e1dba114}{\index{Convex\-Hull@{Convex\-Hull}!Convex\-Hull@{Convex\-Hull}}
+\index{Convex\-Hull@{Convex\-Hull}!ConvexHull@{Convex\-Hull}}
+\subsubsection[{Convex\-Hull}]{\setlength{\rightskip}{0pt plus 5cm}Convex\-Hull\-::\-Convex\-Hull (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{class_convex_hull_a41e888f95597a80d42a90060e1dba114}
+
+
+Método constructor sin parámetros. 
+
+Construye un objeto sin especificar ningún dato. Utiliza el constructor sin parámetros de \hyperlink{class_point2_d}{Point2\-D}. \hypertarget{class_convex_hull_ab35ffd84a05135cf8e4c6f98db103274}{\index{Convex\-Hull@{Convex\-Hull}!Convex\-Hull@{Convex\-Hull}}
+\index{Convex\-Hull@{Convex\-Hull}!ConvexHull@{Convex\-Hull}}
+\subsubsection[{Convex\-Hull}]{\setlength{\rightskip}{0pt plus 5cm}Convex\-Hull\-::\-Convex\-Hull (
+\begin{DoxyParamCaption}
+\item[{{\bf Point2\-D}}]{}
+\end{DoxyParamCaption}
+)}}\label{class_convex_hull_ab35ffd84a05135cf8e4c6f98db103274}
+
+
+Método constructor con parámetro \hyperlink{class_point2_d}{Point2\-D}. 
+
+Construye un objeto \hyperlink{class_convex_hull}{Convex\-Hull} especificando una lista de puntos a evaluar. Se utiliza el constructor de copia de \hyperlink{class_point2_d}{Point2\-D}. \hypertarget{class_convex_hull_a3c2424e4f2e68b38285a236ea33014fe}{\index{Convex\-Hull@{Convex\-Hull}!Convex\-Hull@{Convex\-Hull}}
+\index{Convex\-Hull@{Convex\-Hull}!ConvexHull@{Convex\-Hull}}
+\subsubsection[{Convex\-Hull}]{\setlength{\rightskip}{0pt plus 5cm}Convex\-Hull\-::\-Convex\-Hull (
+\begin{DoxyParamCaption}
+\item[{{\bf Point2\-D}}]{, }
+\item[{{\bf H\-E\-\_\-face} $\ast$}]{}
+\end{DoxyParamCaption}
+)}}\label{class_convex_hull_a3c2424e4f2e68b38285a236ea33014fe}
+
+
+Método constructor con parámetros \hyperlink{class_point2_d}{Point2\-D} y H\-E\-\_\-face$\ast$. 
+
+Construye un objeto \hyperlink{class_convex_hull}{Convex\-Hull} a partir de una lista de puntos a evaluar y los asigna en un \hyperlink{class_h_e__face}{H\-E\-\_\-face} dado por la dirección del  \hypertarget{class_convex_hull_abd4e80afef71c40593d8c50233bde05d}{\index{Convex\-Hull@{Convex\-Hull}!Convex\-Hull@{Convex\-Hull}}
+\index{Convex\-Hull@{Convex\-Hull}!ConvexHull@{Convex\-Hull}}
+\subsubsection[{Convex\-Hull}]{\setlength{\rightskip}{0pt plus 5cm}Convex\-Hull\-::\-Convex\-Hull (
+\begin{DoxyParamCaption}
+\item[{const {\bf Convex\-Hull} \&}]{obj}
+\end{DoxyParamCaption}
+)}}\label{class_convex_hull_abd4e80afef71c40593d8c50233bde05d}
+
+
+Método constructor de copia. 
+
+Construye un nuevo objeto \hyperlink{class_convex_hull}{Convex\-Hull} a partir de un objeto \hyperlink{class_convex_hull}{Convex\-Hull} anterior. 
+
+La documentación para esta clase fue generada a partir del siguiente fichero\-:\begin{DoxyCompactItemize}
 \item 
-\hypertarget{class_convex_hull_a8e0b5b3ce10734fac4c08d219b942928}{\hyperlink{class_point2_d}{Point2\-D} {\bfseries points}}\label{class_convex_hull_a8e0b5b3ce10734fac4c08d219b942928}
-
-\end{DoxyCompactItemize}
-
-
-The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
-\item 
-/home/david/\-Documents/\-Estructuras/\-Proyectobonito/include/Convex\-Hull.\-hh\item 
-/home/david/\-Documents/\-Estructuras/\-Proyectobonito/source/Convex\-Hull.\-cpp\end{DoxyCompactItemize}
+/home/david/\-Documents/\-Estructuras/\-Proyectobonito/include/Convex\-Hull.\-hh\end{DoxyCompactItemize}

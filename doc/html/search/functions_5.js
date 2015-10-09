@@ -1,7 +1,4 @@
 var searchData=
 [
-  ['setnext',['setNext',['../class_point2_d.html#af1c0abe6d1613d7f3929524ab4de071c',1,'Point2D::setNext(double, double)'],['../class_point2_d.html#ab194d1868b4931ea7e2615151477df87',1,'Point2D::setNext(Point2D *)']]],
-  ['sett',['sett',['../class_point2_d.html#a0f372c747ea163de8e73029d58de1b74',1,'Point2D']]],
-  ['setx',['setx',['../class_point2_d.html#a36d1b973b13ebf9c634d369119ca8c2e',1,'Point2D']]],
-  ['sety',['sety',['../class_point2_d.html#ae60a82352ce1f39527a97fcd941fa9bc',1,'Point2D']]]
+  ['point2d',['Point2D',['../class_point2_d.html#a1b119032e0b60ef27f8610d640e241e2',1,'Point2D::Point2D(void)'],['../class_point2_d.html#a0e3ee506aac9ae6461bdf6083c7596b0',1,'Point2D::Point2D(double, double)'],['../class_point2_d.html#aee8bdb479f01aaea16059b9d7a6e3fe4',1,'Point2D::Point2D(const Point2D &amp;obj)']]]
 ];

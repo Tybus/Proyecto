@@ -37,7 +37,16 @@ void ConvexHull::getConvexHull(){
         pointOnHull = endpoint;
     }
     while(endpoint != p.get(0));
+    HE_vert verts[p.getAm()];
     for(int w =0;w<p.getAm(); w++){
         cout<<p.get(w).getx()<< " "<< p.get(w).gety()<<endl;
+        verts[w].point = p.get(w);
+        verts[w].edge = new HE_edge();
+        if(w!=(p.getAm()-1)){
+            verts[w].edge->vert = &verts[w+1];
+        }
+        else{
+        verts[w].edge->vert = &verts[0];
+        }
     }
 }

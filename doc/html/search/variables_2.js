@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['next',['next',['../class_h_e__edge.html#aa002f397ba1ce28a16dc80ae30eb6a71',1,'HE_edge']]]
+  ['face',['face',['../class_h_e__edge.html#a64537a0992a9b54e9d254e7eec04f766',1,'HE_edge']]]
 ];

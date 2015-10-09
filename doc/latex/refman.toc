@@ -1,0 +1,47 @@
+\select@language {spanish}
+\contentsline {chapter}{\numberline {1}\IeC {\'I}ndice de clases}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Lista de clases}{1}{section.1.1}
+\contentsline {chapter}{\numberline {2}Documentaci\IeC {\'o}n de las clases}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Referencia de la Clase Convex\discretionary {-}{}{}Hull}{3}{section.2.1}
+\contentsline {section}{\numberline {2.2}Referencia de la Clase H\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}edge}{3}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Descripci\IeC {\'o}n detallada}{4}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Documentaci\IeC {\'o}n del constructor y destructor}{4}{subsection.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.2.1}H\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}edge}{4}{subsubsection.2.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2.2}H\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}edge}{4}{subsubsection.2.2.2.2}
+\contentsline {section}{\numberline {2.3}Referencia de la Clase H\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}face}{4}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Descripci\IeC {\'o}n detallada}{5}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Documentaci\IeC {\'o}n del constructor y destructor}{5}{subsection.2.3.2}
+\contentsline {subsubsection}{\numberline {2.3.2.1}H\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}face}{5}{subsubsection.2.3.2.1}
+\contentsline {subsubsection}{\numberline {2.3.2.2}H\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}face}{5}{subsubsection.2.3.2.2}
+\contentsline {subsection}{\numberline {2.3.3}Documentaci\IeC {\'o}n de los datos miembro}{5}{subsection.2.3.3}
+\contentsline {subsubsection}{\numberline {2.3.3.1}edge}{5}{subsubsection.2.3.3.1}
+\contentsline {section}{\numberline {2.4}Referencia de la Clase H\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}vert}{5}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Descripci\IeC {\'o}n detallada}{6}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Documentaci\IeC {\'o}n del constructor y destructor}{6}{subsection.2.4.2}
+\contentsline {subsubsection}{\numberline {2.4.2.1}H\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}vert}{6}{subsubsection.2.4.2.1}
+\contentsline {subsection}{\numberline {2.4.3}Documentaci\IeC {\'o}n de los datos miembro}{6}{subsection.2.4.3}
+\contentsline {subsubsection}{\numberline {2.4.3.1}edge}{6}{subsubsection.2.4.3.1}
+\contentsline {subsubsection}{\numberline {2.4.3.2}point}{6}{subsubsection.2.4.3.2}
+\contentsline {section}{\numberline {2.5}Referencia de la Clase Point2\discretionary {-}{}{}D}{6}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Descripci\IeC {\'o}n detallada}{7}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Documentaci\IeC {\'o}n del constructor y destructor}{7}{subsection.2.5.2}
+\contentsline {subsubsection}{\numberline {2.5.2.1}Point2\discretionary {-}{}{}D}{7}{subsubsection.2.5.2.1}
+\contentsline {subsubsection}{\numberline {2.5.2.2}Point2\discretionary {-}{}{}D}{7}{subsubsection.2.5.2.2}
+\contentsline {subsubsection}{\numberline {2.5.2.3}Point2\discretionary {-}{}{}D}{7}{subsubsection.2.5.2.3}
+\contentsline {subsection}{\numberline {2.5.3}Documentaci\IeC {\'o}n de las funciones miembro}{8}{subsection.2.5.3}
+\contentsline {subsubsection}{\numberline {2.5.3.1}assignn}{8}{subsubsection.2.5.3.1}
+\contentsline {subsubsection}{\numberline {2.5.3.2}get}{8}{subsubsection.2.5.3.2}
+\contentsline {subsubsection}{\numberline {2.5.3.3}get\discretionary {-}{}{}Am}{8}{subsubsection.2.5.3.3}
+\contentsline {subsubsection}{\numberline {2.5.3.4}get\discretionary {-}{}{}Left\discretionary {-}{}{}Most}{8}{subsubsection.2.5.3.4}
+\contentsline {subsubsection}{\numberline {2.5.3.5}getx}{8}{subsubsection.2.5.3.5}
+\contentsline {subsubsection}{\numberline {2.5.3.6}gety}{8}{subsubsection.2.5.3.6}
+\contentsline {subsubsection}{\numberline {2.5.3.7}on\discretionary {-}{}{}Left}{8}{subsubsection.2.5.3.7}
+\contentsline {subsubsection}{\numberline {2.5.3.8}operator!=}{8}{subsubsection.2.5.3.8}
+\contentsline {subsubsection}{\numberline {2.5.3.9}operator-\/}{8}{subsubsection.2.5.3.9}
+\contentsline {subsubsection}{\numberline {2.5.3.10}operator==}{9}{subsubsection.2.5.3.10}
+\contentsline {subsubsection}{\numberline {2.5.3.11}set\discretionary {-}{}{}Next}{9}{subsubsection.2.5.3.11}
+\contentsline {subsubsection}{\numberline {2.5.3.12}set\discretionary {-}{}{}Next}{9}{subsubsection.2.5.3.12}
+\contentsline {subsubsection}{\numberline {2.5.3.13}sett}{9}{subsubsection.2.5.3.13}
+\contentsline {subsubsection}{\numberline {2.5.3.14}setx}{9}{subsubsection.2.5.3.14}
+\contentsline {subsubsection}{\numberline {2.5.3.15}sety}{9}{subsubsection.2.5.3.15}
+\contentsline {chapter}{\IeC {\'I}ndice}{10}{section*.11}
