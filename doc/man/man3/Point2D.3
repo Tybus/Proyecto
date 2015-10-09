@@ -1,0 +1,178 @@
+.TH "Point2D" 3 "Thu Oct 8 2015" "Version 1.1" "Proyecto Individual" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Point2D \- 
+.PP
+Clase \fBPoint2D\fP\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <Point2D\&.hh>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBPoint2D\fP (void)"
+.br
+.RI "\fIMétodo constructor sin parámetros\&. \fP"
+.ti -1c
+.RI "\fBPoint2D\fP (double, double)"
+.br
+.RI "\fIMétodo constructor con Coordenada\&. \fP"
+.ti -1c
+.RI "\fBPoint2D\fP (const \fBPoint2D\fP &obj)"
+.br
+.RI "\fIMétodo constructor de copia\&. \fP"
+.ti -1c
+.RI "\fB~Point2D\fP (void)"
+.br
+.RI "\fIMétodo Destructor\&. \fP"
+.ti -1c
+.RI "double \fBgetx\fP (void)"
+.br
+.RI "\fIMétodo getx\&. \fP"
+.ti -1c
+.RI "double \fBgety\fP (void)"
+.br
+.RI "\fIMétodo gety\&. \fP"
+.ti -1c
+.RI "void \fBsetx\fP (double)"
+.br
+.RI "\fIMétodo setx\&. \fP"
+.ti -1c
+.RI "void \fBsety\fP (double)"
+.br
+.RI "\fIMétodo sety\&. \fP"
+.ti -1c
+.RI "void \fBsett\fP (double, double)"
+.br
+.RI "\fIMétod sett\&. \fP"
+.ti -1c
+.RI "\fBPoint2D\fP * \fBsetNext\fP (double, double)"
+.br
+.RI "\fIMétodo setNext\&. \fP"
+.ti -1c
+.RI "void \fBsetNext\fP (\fBPoint2D\fP *)"
+.br
+.RI "\fIMétodo setNext\&. \fP"
+.ti -1c
+.RI "int \fBgetAm\fP (void)"
+.br
+.RI "\fIMétodo getAm\&. \fP"
+.ti -1c
+.RI "\fBPoint2D\fP \fBget\fP (int)"
+.br
+.RI "\fIMétodo get\&. \fP"
+.ti -1c
+.RI "bool \fBoperator!=\fP (\fBPoint2D\fP)"
+.br
+.RI "\fIMétodo !=\&. \fP"
+.ti -1c
+.RI "void \fBassignn\fP (int, \fBPoint2D\fP)"
+.br
+.RI "\fIMétodo assignn\&. \fP"
+.ti -1c
+.RI "bool \fBoperator==\fP (\fBPoint2D\fP)"
+.br
+.RI "\fIMétodo ==\&. \fP"
+.ti -1c
+.RI "\fBPoint2D\fP \fBoperator-\fP (\fBPoint2D\fP)"
+.br
+.RI "\fIMétodo -\&. \fP"
+.ti -1c
+.RI "bool \fBonLeft\fP (\fBPoint2D\fP)"
+.br
+.RI "\fIMétodo onLeft\&. \fP"
+.ti -1c
+.RI "int \fBgetLeftMost\fP (void)"
+.br
+.RI "\fIMétodo getLeftMost\&. \fP"
+.in -1c
+.SH "Detailed Description"
+.PP 
+Clase \fBPoint2D\fP\&. 
+
+Esta clase implemente un punto en un plano\&. 
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "Point2D::Point2D (void)"
+
+.PP
+Método constructor sin parámetros\&. Este método crea un nuevo \fBPoint2D\fP, cuya coordenada es (0,0) y los punteros apuntan a NULL 
+.SS "Point2D::Point2D (doublex, doubley)"
+
+.PP
+Método constructor con Coordenada\&. Este metodo crea un nuevo \fBPoint2D\fP, cuya coordenada es (x,y)\&. el puntero next apunta a NULL\&. 
+.SS "Point2D::Point2D (const \fBPoint2D\fP &obj)"
+
+.PP
+Método constructor de copia\&. Este metodo crea un nuevo \fBPoint2D\fP a partir de un objeto \fBPoint2D\fP ya existente\&.Es un nuevo objeto, pero sigue apuntando al mismo next\&. 
+.SH "Member Function Documentation"
+.PP 
+.SS "void Point2D::assignn (intj, \fBPoint2D\fPotro)"
+
+.PP
+Método assignn\&. Este método le asigna un \fBPoint2D\fP a una entrada especifica a partir del punto en cuestión\&. 
+.SS "\fBPoint2D\fP Point2D::get (intj)"
+
+.PP
+Método get\&. Este método retorna una entrada (\fBPoint2D\fP)a elegir de la lista a partir de el punto en cuestion 
+.SS "int Point2D::getAm (void)"
+
+.PP
+Método getAm\&. Este método retorna la cantidad de elementos que están presentes en la lista\&. 
+.SS "int Point2D::getLeftMost (void)"
+
+.PP
+Método getLeftMost\&. Este método retorna la entrada de la lista en la cual se encuentra el punto de coordenada x menor\&. 
+.SS "double Point2D::getx (void)"
+
+.PP
+Método getx\&. Este método retorna la coordenada x del punto en cuestión\&. 
+.SS "double Point2D::gety (void)"
+
+.PP
+Método gety\&. Este método retorna la coordenada y del punto en cuestión\&. 
+.SS "bool Point2D::onLeft (\fBPoint2D\fPotro)"
+
+.PP
+Método onLeft\&. Este metodo retorna TRUE si *this esta a la izquierda de el \fBPoint2D\fP de entrada\&. 
+.SS "bool Point2D::operator!= (\fBPoint2D\fPotro)"
+
+.PP
+Método !=\&. Este método retorna TRUE en caso de que las coordenadas de dos puntos sean diferentes\&. 
+.SS "\fBPoint2D\fP Point2D::operator- (\fBPoint2D\fPotro)"
+
+.PP
+Método -\&. Este método retorna un nuevo \fBPoint2D\fP con el resultado de la resta vectorial de dos puntos\&. 
+.SS "bool Point2D::operator== (\fBPoint2D\fPotro)"
+
+.PP
+Método ==\&. Este método retorna TRUE en caso de que las coordenadas de dos puntos sean iguales\&. 
+.SS "\fBPoint2D\fP * Point2D::setNext (doublex, doubley)"
+
+.PP
+Método setNext\&. Este método crea un nuevo \fBPoint2D\fP, luego le asigna \fBPoint2D\fP *next la dirección de el nuevo objeto\&. Además retorna un puntero al mismo objeto\&. 
+.SS "void Point2D::setNext (\fBPoint2D\fP *point2d)"
+
+.PP
+Método setNext\&. Este método asigna a this->next una dirección a un \fBPoint2D\fP ya existente\&. 
+.SS "void Point2D::sett (doublex, doubley)"
+
+.PP
+Métod sett\&. Este método asigna valores a las coordenadas x e y en el putno en cuestión\&. 
+.SS "void Point2D::setx (doublex)"
+
+.PP
+Método setx\&. Este método asigna un valor a la coordenada x del punto en cuestión\&. 
+.SS "void Point2D::sety (doubley)"
+
+.PP
+Método sety\&. Este método asigna un valor a la coordenada y del punto en cuestión\&. 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Proyecto Individual from the source code\&.

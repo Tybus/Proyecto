@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_h_e__vert_8cpp" kind="file">
+    <compoundname>HE_vert.cpp</compoundname>
+    <includes refid="_h_e__vert_8hh" local="yes">HE_vert.hh</includes>
+    <incdepgraph>
+      <node id="99">
+        <label>string</label>
+      </node>
+      <node id="100">
+        <label>iostream</label>
+      </node>
+      <node id="97">
+        <label>HE_edge.hh</label>
+        <link refid="_h_e__edge_8hh_source"/>
+        <childnode refid="98" relation="include">
+        </childnode>
+        <childnode refid="96" relation="include">
+        </childnode>
+        <childnode refid="99" relation="include">
+        </childnode>
+        <childnode refid="100" relation="include">
+        </childnode>
+      </node>
+      <node id="95">
+        <label>/home/david/Documents/Estructuras/Proyectobonito/source/HE_vert.cpp</label>
+        <link refid="HE_vert.cpp"/>
+        <childnode refid="96" relation="include">
+        </childnode>
+      </node>
+      <node id="96">
+        <label>HE_vert.hh</label>
+        <link refid="_h_e__vert_8hh_source"/>
+        <childnode refid="97" relation="include">
+        </childnode>
+        <childnode refid="101" relation="include">
+        </childnode>
+        <childnode refid="99" relation="include">
+        </childnode>
+        <childnode refid="100" relation="include">
+        </childnode>
+      </node>
+      <node id="101">
+        <label>Point2D.hh</label>
+        <link refid="_point2_d_8hh_source"/>
+        <childnode refid="99" relation="include">
+        </childnode>
+        <childnode refid="100" relation="include">
+        </childnode>
+      </node>
+      <node id="98">
+        <label>HE_face.hh</label>
+        <link refid="_h_e__face_8hh_source"/>
+        <childnode refid="97" relation="include">
+        </childnode>
+        <childnode refid="99" relation="include">
+        </childnode>
+        <childnode refid="100" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;HE_vert.hh&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"><ref refid="class_h_e__vert_1a9e7ac7b249c9e4adbd61d9faf674ee1c" kindref="member">HE_vert::HE_vert</ref>(){</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;<ref refid="class_h_e__vert_1aec66f48f9a8d4e687f0d4a84d961ef9e" kindref="member">edge</ref><sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><ref refid="class_h_e__vert_1a9e7ac7b249c9e4adbd61d9faf674ee1c" kindref="member">HE_vert::HE_vert</ref>(<ref refid="class_point2_d" kindref="compound">Point2D</ref><sp/>point,<sp/><ref refid="class_h_e__edge" kindref="compound">HE_edge</ref>*<sp/>edge){</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;point<sp/>=<sp/><ref refid="class_h_e__vert_1af9f502918fbb0d79d4ed99ade0e8daea" kindref="member">point</ref>;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;edge<sp/>=<sp/><ref refid="class_h_e__vert_1aec66f48f9a8d4e687f0d4a84d961ef9e" kindref="member">edge</ref>;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><ref refid="class_h_e__vert_1a1db104715142137649876fb1f3d54238" kindref="member">HE_vert::~HE_vert</ref>(){</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/david/Documents/Estructuras/Proyectobonito/source/HE_vert.cpp"/>
+  </compounddef>
+</doxygen>

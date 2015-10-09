@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_d44c64559bbebec7f509842c48db8b23" kind="dir">
+    <compoundname>/home/david/Documents/Estructuras/Proyectobonito/include</compoundname>
+    <innerfile refid="_convex_hull_8hh">ConvexHull.hh</innerfile>
+    <innerfile refid="_h_e__edge_8hh">HE_edge.hh</innerfile>
+    <innerfile refid="_h_e__face_8hh">HE_face.hh</innerfile>
+    <innerfile refid="_h_e__vert_8hh">HE_vert.hh</innerfile>
+    <innerfile refid="_point2_d_8hh">Point2D.hh</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/david/Documents/Estructuras/Proyectobonito/include/"/>
+  </compounddef>
+</doxygen>
