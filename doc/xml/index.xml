@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.6">
+  <compound refid="class_convex_hull" kind="class"><name>ConvexHull</name>
+    <member refid="class_convex_hull_1a0ff31f4508984cd36c2558b517c4d9ac" kind="variable"><name>convexhull</name></member>
+    <member refid="class_convex_hull_1a8e0b5b3ce10734fac4c08d219b942928" kind="variable"><name>points</name></member>
+    <member refid="class_convex_hull_1a41e888f95597a80d42a90060e1dba114" kind="function"><name>ConvexHull</name></member>
+    <member refid="class_convex_hull_1ab35ffd84a05135cf8e4c6f98db103274" kind="function"><name>ConvexHull</name></member>
+    <member refid="class_convex_hull_1a3c2424e4f2e68b38285a236ea33014fe" kind="function"><name>ConvexHull</name></member>
+    <member refid="class_convex_hull_1abd4e80afef71c40593d8c50233bde05d" kind="function"><name>ConvexHull</name></member>
+    <member refid="class_convex_hull_1ada73a790143a97f4dfe13580c026c6db" kind="function"><name>~ConvexHull</name></member>
+    <member refid="class_convex_hull_1aabcaae62d10838754d6d5451a88ee61b" kind="function"><name>getLeftMost</name></member>
+    <member refid="class_convex_hull_1a5c0f746f571b0f3535917b926cc84027" kind="function"><name>getConvexHull</name></member>
+  </compound>
+  <compound refid="class_h_e__edge" kind="class"><name>HE_edge</name>
+    <member refid="class_h_e__edge_1a0f2948558eb5c7e4c3b6d06df8c371d2" kind="variable"><name>vert</name></member>
+    <member refid="class_h_e__edge_1abd18f9026e40fc0df490f3dd09554788" kind="variable"><name>pareja</name></member>
+    <member refid="class_h_e__edge_1a64537a0992a9b54e9d254e7eec04f766" kind="variable"><name>face</name></member>
+    <member refid="class_h_e__edge_1aa002f397ba1ce28a16dc80ae30eb6a71" kind="variable"><name>next</name></member>
+    <member refid="class_h_e__edge_1afbd057f4aae8455be8915d37a6d68abc" kind="function"><name>HE_edge</name></member>
+    <member refid="class_h_e__edge_1a06abe32cf6548c2893b2be8a31a442b2" kind="function"><name>HE_edge</name></member>
+    <member refid="class_h_e__edge_1a1eeb049d48d330dccd705d95e19f72d6" kind="function"><name>~HE_edge</name></member>
+  </compound>
+  <compound refid="class_h_e__face" kind="class"><name>HE_face</name>
+    <member refid="class_h_e__face_1a11989659578fb40c2586d452d298eb03" kind="variable"><name>edge</name></member>
+    <member refid="class_h_e__face_1a5a42e8e7beb962f0d0c27108a61ff79d" kind="function"><name>HE_face</name></member>
+    <member refid="class_h_e__face_1a3330fcf146ccd9f35cc2b80222945680" kind="function"><name>HE_face</name></member>
+    <member refid="class_h_e__face_1a6b4e8b2669e7cdf54b97af891364544c" kind="function"><name>~HE_face</name></member>
+  </compound>
+  <compound refid="class_h_e__vert" kind="class"><name>HE_vert</name>
+    <member refid="class_h_e__vert_1af9f502918fbb0d79d4ed99ade0e8daea" kind="variable"><name>point</name></member>
+    <member refid="class_h_e__vert_1aec66f48f9a8d4e687f0d4a84d961ef9e" kind="variable"><name>edge</name></member>
+    <member refid="class_h_e__vert_1a9e7ac7b249c9e4adbd61d9faf674ee1c" kind="function"><name>HE_vert</name></member>
+    <member refid="class_h_e__vert_1afe5995e97c6b556388b0d81000ca4224" kind="function"><name>HE_vert</name></member>
+    <member refid="class_h_e__vert_1a1db104715142137649876fb1f3d54238" kind="function"><name>~HE_vert</name></member>
+  </compound>
+  <compound refid="class_point2_d" kind="class"><name>Point2D</name>
+    <member refid="class_point2_d_1ad9c9f45239103cd5e131e95fe9fbe8da" kind="variable"><name>next</name></member>
+    <member refid="class_point2_d_1a42fcad8b63853b1136e6207ace6d555e" kind="variable"><name>x</name></member>
+    <member refid="class_point2_d_1a55747be726950fdcba27c1ad032bfdf1" kind="variable"><name>y</name></member>
+    <member refid="class_point2_d_1a1b119032e0b60ef27f8610d640e241e2" kind="function"><name>Point2D</name></member>
+    <member refid="class_point2_d_1a0e3ee506aac9ae6461bdf6083c7596b0" kind="function"><name>Point2D</name></member>
+    <member refid="class_point2_d_1aee8bdb479f01aaea16059b9d7a6e3fe4" kind="function"><name>Point2D</name></member>
+    <member refid="class_point2_d_1ada35e16f1d98a3be260ebb4baeba538b" kind="function"><name>~Point2D</name></member>
+    <member refid="class_point2_d_1abe2430aa7078f09496b538da52ef35cb" kind="function"><name>getx</name></member>
+    <member refid="class_point2_d_1ab01bf498063e4a6d29fbcff95b06e092" kind="function"><name>gety</name></member>
+    <member refid="class_point2_d_1a36d1b973b13ebf9c634d369119ca8c2e" kind="function"><name>setx</name></member>
+    <member refid="class_point2_d_1ae60a82352ce1f39527a97fcd941fa9bc" kind="function"><name>sety</name></member>
+    <member refid="class_point2_d_1a0f372c747ea163de8e73029d58de1b74" kind="function"><name>sett</name></member>
+    <member refid="class_point2_d_1af1c0abe6d1613d7f3929524ab4de071c" kind="function"><name>setNext</name></member>
+    <member refid="class_point2_d_1ab194d1868b4931ea7e2615151477df87" kind="function"><name>setNext</name></member>
+    <member refid="class_point2_d_1ad58676dabebce9c9f48dd143c098e14a" kind="function"><name>getAm</name></member>
+    <member refid="class_point2_d_1a59c6ec04c22e19fe1edc9f62665343d4" kind="function"><name>get</name></member>
+    <member refid="class_point2_d_1a7298e6af31fcc1d34c6ce2d58cd67fec" kind="function"><name>operator!=</name></member>
+    <member refid="class_point2_d_1ae18c4797b3cd5ffceee102b4ff0b7e73" kind="function"><name>assignn</name></member>
+    <member refid="class_point2_d_1a24fd3ed564dbec04a4ea1346d27352c3" kind="function"><name>operator==</name></member>
+    <member refid="class_point2_d_1a236083ccbbd0fc13e36f352ee998c2c5" kind="function"><name>operator-</name></member>
+    <member refid="class_point2_d_1a57271ac24549f078e8766290c22274c9" kind="function"><name>onLeft</name></member>
+    <member refid="class_point2_d_1aa59df8b613913c720f865d4fd82e2452" kind="function"><name>getLeftMost</name></member>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="_convex_hull_8hh" kind="file"><name>ConvexHull.hh</name>
+  </compound>
+  <compound refid="_h_e__edge_8hh" kind="file"><name>HE_edge.hh</name>
+  </compound>
+  <compound refid="_h_e__face_8hh" kind="file"><name>HE_face.hh</name>
+  </compound>
+  <compound refid="_h_e__vert_8hh" kind="file"><name>HE_vert.hh</name>
+  </compound>
+  <compound refid="_point2_d_8hh" kind="file"><name>Point2D.hh</name>
+  </compound>
+  <compound refid="main_8cpp" kind="file"><name>main.cpp</name>
+    <member refid="main_8cpp_1a840291bc02cba5474a4cb46a9b9566fe" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="source_2main_8cpp" kind="file"><name>main.cpp</name>
+    <member refid="source_2main_8cpp_1a840291bc02cba5474a4cb46a9b9566fe" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="_convex_hull_8cpp" kind="file"><name>ConvexHull.cpp</name>
+  </compound>
+  <compound refid="_h_e__edge_8cpp" kind="file"><name>HE_edge.cpp</name>
+  </compound>
+  <compound refid="_h_e__face_8cpp" kind="file"><name>HE_face.cpp</name>
+  </compound>
+  <compound refid="_h_e__vert_8cpp" kind="file"><name>HE_vert.cpp</name>
+  </compound>
+  <compound refid="_point2_d_8cpp" kind="file"><name>Point2D.cpp</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/david/Documents/Estructuras/Proyectobonito/include</name>
+  </compound>
+  <compound refid="dir_b2f33c71d4aa5e7af42a1ca61ff5af1b" kind="dir"><name>/home/david/Documents/Estructuras/Proyectobonito/source</name>
+  </compound>
+</doxygenindex>

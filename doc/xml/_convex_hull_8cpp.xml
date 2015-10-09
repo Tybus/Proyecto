@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_convex_hull_8cpp" kind="file">
+    <compoundname>ConvexHull.cpp</compoundname>
+    <includes refid="_convex_hull_8hh" local="yes">ConvexHull.hh</includes>
+    <incdepgraph>
+      <node id="71">
+        <label>ConvexHull.hh</label>
+        <link refid="_convex_hull_8hh_source"/>
+        <childnode refid="72" relation="include">
+        </childnode>
+        <childnode refid="74" relation="include">
+        </childnode>
+        <childnode refid="75" relation="include">
+        </childnode>
+        <childnode refid="76" relation="include">
+        </childnode>
+        <childnode refid="77" relation="include">
+        </childnode>
+      </node>
+      <node id="76">
+        <label>string</label>
+      </node>
+      <node id="77">
+        <label>iostream</label>
+      </node>
+      <node id="73">
+        <label>HE_edge.hh</label>
+        <link refid="_h_e__edge_8hh_source"/>
+        <childnode refid="72" relation="include">
+        </childnode>
+        <childnode refid="74" relation="include">
+        </childnode>
+        <childnode refid="76" relation="include">
+        </childnode>
+        <childnode refid="77" relation="include">
+        </childnode>
+      </node>
+      <node id="74">
+        <label>HE_vert.hh</label>
+        <link refid="_h_e__vert_8hh_source"/>
+        <childnode refid="73" relation="include">
+        </childnode>
+        <childnode refid="75" relation="include">
+        </childnode>
+        <childnode refid="76" relation="include">
+        </childnode>
+        <childnode refid="77" relation="include">
+        </childnode>
+      </node>
+      <node id="70">
+        <label>/home/david/Documents/Estructuras/Proyectobonito/source/ConvexHull.cpp</label>
+        <link refid="ConvexHull.cpp"/>
+        <childnode refid="71" relation="include">
+        </childnode>
+      </node>
+      <node id="75">
+        <label>Point2D.hh</label>
+        <link refid="_point2_d_8hh_source"/>
+        <childnode refid="76" relation="include">
+        </childnode>
+        <childnode refid="77" relation="include">
+        </childnode>
+      </node>
+      <node id="72">
+        <label>HE_face.hh</label>
+        <link refid="_h_e__face_8hh_source"/>
+        <childnode refid="73" relation="include">
+        </childnode>
+        <childnode refid="76" relation="include">
+        </childnode>
+        <childnode refid="77" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;ConvexHull.hh&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal">ConvexHull::ConvexHull(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_convex_hull" kindref="compound">ConvexHull</ref><sp/>&amp;obj){</highlight></codeline>
+<codeline lineno="3"><highlight class="normal">this-&gt;convexhull<sp/>=<sp/>obj.convexhull;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">this-&gt;points<sp/>=<sp/>obj.points;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">this-&gt;getConvexHull();</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">ConvexHull::ConvexHull(){</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;convexhull<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_h_e__face" kindref="compound">HE_face</ref>();</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">ConvexHull::ConvexHull(<ref refid="class_point2_d" kindref="compound">Point2D</ref><sp/>points){</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;convexhull<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_h_e__face" kindref="compound">HE_face</ref>();</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;points<sp/>=<sp/>points;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;getConvexHull();</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">ConvexHull::~ConvexHull(){</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ConvexHull::getConvexHull(){</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>amm<sp/>=<sp/>this-&gt;points.<ref refid="class_point2_d_1ad58676dabebce9c9f48dd143c098e14a" kindref="member">getAm</ref>();</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_point2_d" kindref="compound">Point2D</ref><sp/>pointOnHull;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_point2_d" kindref="compound">Point2D</ref><sp/>p;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_point2_d" kindref="compound">Point2D</ref><sp/>endpoint;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_point2_d" kindref="compound">Point2D</ref><sp/>temp;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_point2_d" kindref="compound">Point2D</ref><sp/>temp2;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>pointOnHull<sp/>=<sp/>this-&gt;points.<ref refid="class_point2_d_1a59c6ec04c22e19fe1edc9f62665343d4" kindref="member">get</ref>(this-&gt;points.<ref refid="class_point2_d_1aa59df8b613913c720f865d4fd82e2452" kindref="member">getLeftMost</ref>());</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=0;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">do</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p.<ref refid="class_point2_d_1ae18c4797b3cd5ffceee102b4ff0b7e73" kindref="member">assignn</ref>(i,pointOnHull);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>endpoint<sp/>=<sp/>this-&gt;points.<ref refid="class_point2_d_1a59c6ec04c22e19fe1edc9f62665343d4" kindref="member">get</ref>(0);</highlight><highlight class="comment">//El<sp/>problema<sp/>está<sp/>aqui</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>j<sp/>=<sp/>1;j&lt;<sp/>amm;j++){</highlight><highlight class="comment">//ammount<sp/>se<sp/>sale</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>temp<sp/>=<sp/>this-&gt;points.<ref refid="class_point2_d_1a59c6ec04c22e19fe1edc9f62665343d4" kindref="member">get</ref>(j)<sp/>-<sp/>p.<ref refid="class_point2_d_1a59c6ec04c22e19fe1edc9f62665343d4" kindref="member">get</ref>(i);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>temp2<sp/>=<sp/>endpoint-p.<ref refid="class_point2_d_1a59c6ec04c22e19fe1edc9f62665343d4" kindref="member">get</ref>(i);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((endpoint<sp/>==pointOnHull)||(temp.<ref refid="class_point2_d_1a57271ac24549f078e8766290c22274c9" kindref="member">onLeft</ref>(temp2))){</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>endpoint<sp/>=<sp/>this-&gt;points.<ref refid="class_point2_d_1a59c6ec04c22e19fe1edc9f62665343d4" kindref="member">get</ref>(j);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>i<sp/>=<sp/>i+1;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pointOnHull<sp/>=<sp/>endpoint;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(endpoint<sp/>!=<sp/>p.<ref refid="class_point2_d_1a59c6ec04c22e19fe1edc9f62665343d4" kindref="member">get</ref>(0));</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>w<sp/>=0;w&lt;p.<ref refid="class_point2_d_1ad58676dabebce9c9f48dd143c098e14a" kindref="member">getAm</ref>();<sp/>w++){</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout&lt;&lt;p.<ref refid="class_point2_d_1a59c6ec04c22e19fe1edc9f62665343d4" kindref="member">get</ref>(w).<ref refid="class_point2_d_1abe2430aa7078f09496b538da52ef35cb" kindref="member">getx</ref>()&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>&quot;</highlight><highlight class="normal">&lt;&lt;<sp/>p.<ref refid="class_point2_d_1a59c6ec04c22e19fe1edc9f62665343d4" kindref="member">get</ref>(w).<ref refid="class_point2_d_1ab01bf498063e4a6d29fbcff95b06e092" kindref="member">gety</ref>()&lt;&lt;endl;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/david/Documents/Estructuras/Proyectobonito/source/ConvexHull.cpp"/>
+  </compounddef>
+</doxygen>

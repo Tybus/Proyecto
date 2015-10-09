@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_h_e__edge" kind="class" prot="public">
+    <compoundname>HE_edge</compoundname>
+    <includes refid="_h_e__edge_8hh" local="no">HE_edge.hh</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_h_e__edge_1a0f2948558eb5c7e4c3b6d06df8c371d2" prot="public" static="no" mutable="no">
+        <type><ref refid="class_h_e__vert" kindref="compound">HE_vert</ref> *</type>
+        <definition>HE_vert* HE_edge::vert</definition>
+        <argsstring></argsstring>
+        <name>vert</name>
+        <briefdescription>
+<para>Contiene la dirección del vértice perteneciente al Medio Borde. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/david/Documents/Estructuras/Proyectobonito/include/HE_edge.hh" line="29" column="1" bodyfile="/home/david/Documents/Estructuras/Proyectobonito/include/HE_edge.hh" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_h_e__edge_1abd18f9026e40fc0df490f3dd09554788" prot="public" static="no" mutable="no">
+        <type><ref refid="class_h_e__edge" kindref="compound">HE_edge</ref> *</type>
+        <definition>HE_edge* HE_edge::pareja</definition>
+        <argsstring></argsstring>
+        <name>pareja</name>
+        <briefdescription>
+<para>Contiene la dirección de la otra mitad del Medio Borde. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/david/Documents/Estructuras/Proyectobonito/include/HE_edge.hh" line="31" column="1" bodyfile="/home/david/Documents/Estructuras/Proyectobonito/include/HE_edge.hh" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_h_e__edge_1a64537a0992a9b54e9d254e7eec04f766" prot="public" static="no" mutable="no">
+        <type><ref refid="class_h_e__face" kindref="compound">HE_face</ref> *</type>
+        <definition>HE_face* HE_edge::face</definition>
+        <argsstring></argsstring>
+        <name>face</name>
+        <briefdescription>
+<para>Contiene la dirección de la cara que contiene al Medio Borde. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/david/Documents/Estructuras/Proyectobonito/include/HE_edge.hh" line="33" column="1" bodyfile="/home/david/Documents/Estructuras/Proyectobonito/include/HE_edge.hh" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_h_e__edge_1aa002f397ba1ce28a16dc80ae30eb6a71" prot="public" static="no" mutable="no">
+        <type><ref refid="class_h_e__edge" kindref="compound">HE_edge</ref> *</type>
+        <definition>HE_edge* HE_edge::next</definition>
+        <argsstring></argsstring>
+        <name>next</name>
+        <briefdescription>
+<para>Contiene la dirección de un medio borde adyacente al Medio Borde. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/david/Documents/Estructuras/Proyectobonito/include/HE_edge.hh" line="35" column="1" bodyfile="/home/david/Documents/Estructuras/Proyectobonito/include/HE_edge.hh" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_h_e__edge_1afbd057f4aae8455be8915d37a6d68abc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>HE_edge::HE_edge</definition>
+        <argsstring>()</argsstring>
+        <name>HE_edge</name>
+        <briefdescription>
+<para>Método Constructor. </para>        </briefdescription>
+        <detaileddescription>
+<para>Este método contruye el Medio Borde. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/david/Documents/Estructuras/Proyectobonito/include/HE_edge.hh" line="20" column="1" bodyfile="/home/david/Documents/Estructuras/Proyectobonito/source/HE_edge.cpp" bodystart="3" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="function" id="class_h_e__edge_1a06abe32cf6548c2893b2be8a31a442b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>HE_edge::HE_edge</definition>
+        <argsstring>(HE_vert *, HE_edge *, HE_face *, HE_edge *)</argsstring>
+        <name>HE_edge</name>
+        <param>
+          <type><ref refid="class_h_e__vert" kindref="compound">HE_vert</ref> *</type>
+          <defname>vert</defname>
+        </param>
+        <param>
+          <type><ref refid="class_h_e__edge" kindref="compound">HE_edge</ref> *</type>
+          <defname>pareja</defname>
+        </param>
+        <param>
+          <type><ref refid="class_h_e__face" kindref="compound">HE_face</ref> *</type>
+          <defname>face</defname>
+        </param>
+        <param>
+          <type><ref refid="class_h_e__edge" kindref="compound">HE_edge</ref> *</type>
+          <defname>next</defname>
+        </param>
+        <briefdescription>
+<para>Método Constructor con parametros de entrada. </para>        </briefdescription>
+        <detaileddescription>
+<para>Construye un Medio Borde utilizando datos anteriores. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/david/Documents/Estructuras/Proyectobonito/include/HE_edge.hh" line="25" column="1" bodyfile="/home/david/Documents/Estructuras/Proyectobonito/source/HE_edge.cpp" bodystart="9" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_h_e__edge_1a1eeb049d48d330dccd705d95e19f72d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>HE_edge::~HE_edge</definition>
+        <argsstring>()</argsstring>
+        <name>~HE_edge</name>
+        <briefdescription>
+<para>Método Destructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/david/Documents/Estructuras/Proyectobonito/include/HE_edge.hh" line="27" column="1" bodyfile="/home/david/Documents/Estructuras/Proyectobonito/source/HE_edge.cpp" bodystart="16" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>La clase <ref refid="class_h_e__edge" kindref="compound">HE_edge</ref>. </para>    </briefdescription>
+    <detaileddescription>
+<para>Esta clase representa un Medio Borde. </para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="7">
+        <label>HE_edge</label>
+        <link refid="class_h_e__edge"/>
+        <childnode refid="7" relation="usage">
+          <edgelabel>next</edgelabel>
+          <edgelabel>pareja</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>face</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>vert</edgelabel>
+        </childnode>
+      </node>
+      <node id="10">
+        <label>Point2D</label>
+        <link refid="class_point2_d"/>
+      </node>
+      <node id="8">
+        <label>HE_face</label>
+        <link refid="class_h_e__face"/>
+        <childnode refid="7" relation="usage">
+          <edgelabel>edge</edgelabel>
+        </childnode>
+      </node>
+      <node id="9">
+        <label>HE_vert</label>
+        <link refid="class_h_e__vert"/>
+        <childnode refid="7" relation="usage">
+          <edgelabel>edge</edgelabel>
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>point</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/david/Documents/Estructuras/Proyectobonito/include/HE_edge.hh" line="14" column="1" bodyfile="/home/david/Documents/Estructuras/Proyectobonito/include/HE_edge.hh" bodystart="13" bodyend="36"/>
+    <listofallmembers>
+      <member refid="class_h_e__edge_1a64537a0992a9b54e9d254e7eec04f766" prot="public" virt="non-virtual"><scope>HE_edge</scope><name>face</name></member>
+      <member refid="class_h_e__edge_1afbd057f4aae8455be8915d37a6d68abc" prot="public" virt="non-virtual"><scope>HE_edge</scope><name>HE_edge</name></member>
+      <member refid="class_h_e__edge_1a06abe32cf6548c2893b2be8a31a442b2" prot="public" virt="non-virtual"><scope>HE_edge</scope><name>HE_edge</name></member>
+      <member refid="class_h_e__edge_1aa002f397ba1ce28a16dc80ae30eb6a71" prot="public" virt="non-virtual"><scope>HE_edge</scope><name>next</name></member>
+      <member refid="class_h_e__edge_1abd18f9026e40fc0df490f3dd09554788" prot="public" virt="non-virtual"><scope>HE_edge</scope><name>pareja</name></member>
+      <member refid="class_h_e__edge_1a0f2948558eb5c7e4c3b6d06df8c371d2" prot="public" virt="non-virtual"><scope>HE_edge</scope><name>vert</name></member>
+      <member refid="class_h_e__edge_1a1eeb049d48d330dccd705d95e19f72d6" prot="public" virt="non-virtual"><scope>HE_edge</scope><name>~HE_edge</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

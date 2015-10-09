@@ -1,0 +1,412 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_point2_d" kind="class" prot="public">
+    <compoundname>Point2D</compoundname>
+    <includes refid="_point2_d_8hh" local="no">Point2D.hh</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_point2_d_1ad9c9f45239103cd5e131e95fe9fbe8da" prot="private" static="no" mutable="no">
+        <type><ref refid="class_point2_d" kindref="compound">Point2D</ref> *</type>
+        <definition>Point2D* Point2D::next</definition>
+        <argsstring></argsstring>
+        <name>next</name>
+        <briefdescription>
+<para>Variable next, privada. </para>        </briefdescription>
+        <detaileddescription>
+<para>Esta variable contiene un puntero a la siguiente entrada de la lista. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/david/Documents/Estructuras/Proyectobonito/include/Point2D.hh" line="91" column="1" bodyfile="/home/david/Documents/Estructuras/Proyectobonito/include/Point2D.hh" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_point2_d_1a42fcad8b63853b1136e6207ace6d555e" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Point2D::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <briefdescription>
+<para>Variable x, privada. </para>        </briefdescription>
+        <detaileddescription>
+<para>Esta variable contiene el valor de la coordenada x del punto </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/david/Documents/Estructuras/Proyectobonito/include/Point2D.hh" line="95" column="1" bodyfile="/home/david/Documents/Estructuras/Proyectobonito/include/Point2D.hh" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_point2_d_1a55747be726950fdcba27c1ad032bfdf1" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Point2D::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <briefdescription>
+<para>Variable y, privada. </para>        </briefdescription>
+        <detaileddescription>
+<para>Esta variable contiene el valor de la coordenada y del punto. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/david/Documents/Estructuras/Proyectobonito/include/Point2D.hh" line="99" column="1" bodyfile="/home/david/Documents/Estructuras/Proyectobonito/include/Point2D.hh" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_point2_d_1a1b119032e0b60ef27f8610d640e241e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Point2D::Point2D</definition>
+        <argsstring>(void)</argsstring>
+        <name>Point2D</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Método constructor sin parámetros. </para>        </briefdescription>
+        <detaileddescription>
+<para>Este método crea un nuevo <ref refid="class_point2_d" kindref="compound">Point2D</ref>, cuya coordenada es (0,0) y los punteros apuntan a NULL </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/david/Documents/Estructuras/Proyectobonito/include/Point2D.hh" line="15" column="1" bodyfile="/home/david/Documents/Estructuras/Proyectobonito/source/Point2D.cpp" bodystart="2" bodyend="6"/>
+      </memberdef>
+      <memberdef kind="function" id="class_point2_d_1a0e3ee506aac9ae6461bdf6083c7596b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Point2D::Point2D</definition>
+        <argsstring>(double, double)</argsstring>
+        <name>Point2D</name>
+        <param>
+          <type>double</type>
+          <defname>x</defname>
+        </param>
+        <param>
+          <type>double</type>
+          <defname>y</defname>
+        </param>
+        <briefdescription>
+<para>Método constructor con Coordenada. </para>        </briefdescription>
+        <detaileddescription>
+<para>Este metodo crea un nuevo <ref refid="class_point2_d" kindref="compound">Point2D</ref>, cuya coordenada es (x,y). el puntero next apunta a NULL. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/david/Documents/Estructuras/Proyectobonito/include/Point2D.hh" line="19" column="1" bodyfile="/home/david/Documents/Estructuras/Proyectobonito/source/Point2D.cpp" bodystart="7" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="class_point2_d_1aee8bdb479f01aaea16059b9d7a6e3fe4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Point2D::Point2D</definition>
+        <argsstring>(const Point2D &amp;obj)</argsstring>
+        <name>Point2D</name>
+        <param>
+          <type>const <ref refid="class_point2_d" kindref="compound">Point2D</ref> &amp;</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+<para>Método constructor de copia. </para>        </briefdescription>
+        <detaileddescription>
+<para>Este metodo crea un nuevo <ref refid="class_point2_d" kindref="compound">Point2D</ref> a partir de un objeto <ref refid="class_point2_d" kindref="compound">Point2D</ref> ya existente.Es un nuevo objeto, pero sigue apuntando al mismo next. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/david/Documents/Estructuras/Proyectobonito/include/Point2D.hh" line="23" column="1" bodyfile="/home/david/Documents/Estructuras/Proyectobonito/source/Point2D.cpp" bodystart="12" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_point2_d_1ada35e16f1d98a3be260ebb4baeba538b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Point2D::~Point2D</definition>
+        <argsstring>(void)</argsstring>
+        <name>~Point2D</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Método Destructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/david/Documents/Estructuras/Proyectobonito/include/Point2D.hh" line="25" column="1" bodyfile="/home/david/Documents/Estructuras/Proyectobonito/source/Point2D.cpp" bodystart="114" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="class_point2_d_1abe2430aa7078f09496b538da52ef35cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Point2D::getx</definition>
+        <argsstring>(void)</argsstring>
+        <name>getx</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Método getx. </para>        </briefdescription>
+        <detaileddescription>
+<para>Este método retorna la coordenada x del punto en cuestión. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/david/Documents/Estructuras/Proyectobonito/include/Point2D.hh" line="29" column="1" bodyfile="/home/david/Documents/Estructuras/Proyectobonito/source/Point2D.cpp" bodystart="17" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_point2_d_1ab01bf498063e4a6d29fbcff95b06e092" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Point2D::gety</definition>
+        <argsstring>(void)</argsstring>
+        <name>gety</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Método gety. </para>        </briefdescription>
+        <detaileddescription>
+<para>Este método retorna la coordenada y del punto en cuestión. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/david/Documents/Estructuras/Proyectobonito/include/Point2D.hh" line="33" column="1" bodyfile="/home/david/Documents/Estructuras/Proyectobonito/source/Point2D.cpp" bodystart="20" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_point2_d_1a36d1b973b13ebf9c634d369119ca8c2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Point2D::setx</definition>
+        <argsstring>(double)</argsstring>
+        <name>setx</name>
+        <param>
+          <type>double</type>
+          <defname>x</defname>
+        </param>
+        <briefdescription>
+<para>Método setx. </para>        </briefdescription>
+        <detaileddescription>
+<para>Este método asigna un valor a la coordenada x del punto en cuestión. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/david/Documents/Estructuras/Proyectobonito/include/Point2D.hh" line="37" column="1" bodyfile="/home/david/Documents/Estructuras/Proyectobonito/source/Point2D.cpp" bodystart="31" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_point2_d_1ae60a82352ce1f39527a97fcd941fa9bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Point2D::sety</definition>
+        <argsstring>(double)</argsstring>
+        <name>sety</name>
+        <param>
+          <type>double</type>
+          <defname>y</defname>
+        </param>
+        <briefdescription>
+<para>Método sety. </para>        </briefdescription>
+        <detaileddescription>
+<para>Este método asigna un valor a la coordenada y del punto en cuestión. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/david/Documents/Estructuras/Proyectobonito/include/Point2D.hh" line="41" column="1" bodyfile="/home/david/Documents/Estructuras/Proyectobonito/source/Point2D.cpp" bodystart="34" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_point2_d_1a0f372c747ea163de8e73029d58de1b74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Point2D::sett</definition>
+        <argsstring>(double, double)</argsstring>
+        <name>sett</name>
+        <param>
+          <type>double</type>
+          <defname>x</defname>
+        </param>
+        <param>
+          <type>double</type>
+          <defname>y</defname>
+        </param>
+        <briefdescription>
+<para>Métod sett. </para>        </briefdescription>
+        <detaileddescription>
+<para>Este método asigna valores a las coordenadas x e y en el putno en cuestión. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/david/Documents/Estructuras/Proyectobonito/include/Point2D.hh" line="45" column="1" bodyfile="/home/david/Documents/Estructuras/Proyectobonito/source/Point2D.cpp" bodystart="46" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="class_point2_d_1af1c0abe6d1613d7f3929524ab4de071c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_point2_d" kindref="compound">Point2D</ref> *</type>
+        <definition>Point2D * Point2D::setNext</definition>
+        <argsstring>(double, double)</argsstring>
+        <name>setNext</name>
+        <param>
+          <type>double</type>
+          <defname>x</defname>
+        </param>
+        <param>
+          <type>double</type>
+          <defname>y</defname>
+        </param>
+        <briefdescription>
+<para>Método setNext. </para>        </briefdescription>
+        <detaileddescription>
+<para>Este método crea un nuevo <ref refid="class_point2_d" kindref="compound">Point2D</ref>, luego le asigna <ref refid="class_point2_d" kindref="compound">Point2D</ref> *next la dirección de el nuevo objeto. Además retorna un puntero al mismo objeto. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/david/Documents/Estructuras/Proyectobonito/include/Point2D.hh" line="50" column="1" bodyfile="/home/david/Documents/Estructuras/Proyectobonito/source/Point2D.cpp" bodystart="23" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_point2_d_1ab194d1868b4931ea7e2615151477df87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Point2D::setNext</definition>
+        <argsstring>(Point2D *)</argsstring>
+        <name>setNext</name>
+        <param>
+          <type><ref refid="class_point2_d" kindref="compound">Point2D</ref> *</type>
+          <defname>point2d</defname>
+        </param>
+        <briefdescription>
+<para>Método setNext. </para>        </briefdescription>
+        <detaileddescription>
+<para>Este método asigna a this-&gt;next una dirección a un <ref refid="class_point2_d" kindref="compound">Point2D</ref> ya existente. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/david/Documents/Estructuras/Proyectobonito/include/Point2D.hh" line="54" column="1" bodyfile="/home/david/Documents/Estructuras/Proyectobonito/source/Point2D.cpp" bodystart="28" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_point2_d_1ad58676dabebce9c9f48dd143c098e14a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Point2D::getAm</definition>
+        <argsstring>(void)</argsstring>
+        <name>getAm</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Método getAm. </para>        </briefdescription>
+        <detaileddescription>
+<para>Este método retorna la cantidad de elementos que están presentes en la lista. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/david/Documents/Estructuras/Proyectobonito/include/Point2D.hh" line="58" column="1" bodyfile="/home/david/Documents/Estructuras/Proyectobonito/source/Point2D.cpp" bodystart="37" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_point2_d_1a59c6ec04c22e19fe1edc9f62665343d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_point2_d" kindref="compound">Point2D</ref></type>
+        <definition>Point2D Point2D::get</definition>
+        <argsstring>(int)</argsstring>
+        <name>get</name>
+        <param>
+          <type>int</type>
+          <defname>j</defname>
+        </param>
+        <briefdescription>
+<para>Método get. </para>        </briefdescription>
+        <detaileddescription>
+<para>Este método retorna una entrada (<ref refid="class_point2_d" kindref="compound">Point2D</ref>)a elegir de la lista a partir de el punto en cuestion </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/david/Documents/Estructuras/Proyectobonito/include/Point2D.hh" line="62" column="1" bodyfile="/home/david/Documents/Estructuras/Proyectobonito/source/Point2D.cpp" bodystart="50" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_point2_d_1a7298e6af31fcc1d34c6ce2d58cd67fec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Point2D::operator!=</definition>
+        <argsstring>(Point2D)</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="class_point2_d" kindref="compound">Point2D</ref></type>
+          <defname>otro</defname>
+        </param>
+        <briefdescription>
+<para>Método !=. </para>        </briefdescription>
+        <detaileddescription>
+<para>Este método retorna TRUE en caso de que las coordenadas de dos puntos sean diferentes. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/david/Documents/Estructuras/Proyectobonito/include/Point2D.hh" line="66" column="1" bodyfile="/home/david/Documents/Estructuras/Proyectobonito/source/Point2D.cpp" bodystart="61" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="class_point2_d_1ae18c4797b3cd5ffceee102b4ff0b7e73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Point2D::assignn</definition>
+        <argsstring>(int, Point2D)</argsstring>
+        <name>assignn</name>
+        <param>
+          <type>int</type>
+          <defname>j</defname>
+        </param>
+        <param>
+          <type><ref refid="class_point2_d" kindref="compound">Point2D</ref></type>
+          <defname>otro</defname>
+        </param>
+        <briefdescription>
+<para>Método assignn. </para>        </briefdescription>
+        <detaileddescription>
+<para>Este método le asigna un <ref refid="class_point2_d" kindref="compound">Point2D</ref> a una entrada especifica a partir del punto en cuestión. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/david/Documents/Estructuras/Proyectobonito/include/Point2D.hh" line="70" column="1" bodyfile="/home/david/Documents/Estructuras/Proyectobonito/source/Point2D.cpp" bodystart="66" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="class_point2_d_1a24fd3ed564dbec04a4ea1346d27352c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Point2D::operator==</definition>
+        <argsstring>(Point2D)</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="class_point2_d" kindref="compound">Point2D</ref></type>
+          <defname>otro</defname>
+        </param>
+        <briefdescription>
+<para>Método ==. </para>        </briefdescription>
+        <detaileddescription>
+<para>Este método retorna TRUE en caso de que las coordenadas de dos puntos sean iguales. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/david/Documents/Estructuras/Proyectobonito/include/Point2D.hh" line="74" column="1" bodyfile="/home/david/Documents/Estructuras/Proyectobonito/source/Point2D.cpp" bodystart="81" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="class_point2_d_1a236083ccbbd0fc13e36f352ee998c2c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_point2_d" kindref="compound">Point2D</ref></type>
+        <definition>Point2D Point2D::operator-</definition>
+        <argsstring>(Point2D)</argsstring>
+        <name>operator-</name>
+        <param>
+          <type><ref refid="class_point2_d" kindref="compound">Point2D</ref></type>
+          <defname>otro</defname>
+        </param>
+        <briefdescription>
+<para>Método -. </para>        </briefdescription>
+        <detaileddescription>
+<para>Este método retorna un nuevo <ref refid="class_point2_d" kindref="compound">Point2D</ref> con el resultado de la resta vectorial de dos puntos. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/david/Documents/Estructuras/Proyectobonito/include/Point2D.hh" line="78" column="1" bodyfile="/home/david/Documents/Estructuras/Proyectobonito/source/Point2D.cpp" bodystart="86" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="class_point2_d_1a57271ac24549f078e8766290c22274c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Point2D::onLeft</definition>
+        <argsstring>(Point2D)</argsstring>
+        <name>onLeft</name>
+        <param>
+          <type><ref refid="class_point2_d" kindref="compound">Point2D</ref></type>
+          <defname>otro</defname>
+        </param>
+        <briefdescription>
+<para>Método onLeft. </para>        </briefdescription>
+        <detaileddescription>
+<para>Este metodo retorna TRUE si *this esta a la izquierda de el <ref refid="class_point2_d" kindref="compound">Point2D</ref> de entrada. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/david/Documents/Estructuras/Proyectobonito/include/Point2D.hh" line="82" column="1" bodyfile="/home/david/Documents/Estructuras/Proyectobonito/source/Point2D.cpp" bodystart="94" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="class_point2_d_1aa59df8b613913c720f865d4fd82e2452" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Point2D::getLeftMost</definition>
+        <argsstring>(void)</argsstring>
+        <name>getLeftMost</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Método getLeftMost. </para>        </briefdescription>
+        <detaileddescription>
+<para>Este método retorna la entrada de la lista en la cual se encuentra el punto de coordenada x menor. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/david/Documents/Estructuras/Proyectobonito/include/Point2D.hh" line="86" column="1" bodyfile="/home/david/Documents/Estructuras/Proyectobonito/source/Point2D.cpp" bodystart="98" bodyend="113"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Clase <ref refid="class_point2_d" kindref="compound">Point2D</ref>. </para>    </briefdescription>
+    <detaileddescription>
+<para>Esta clase implemente un punto en un plano. </para>    </detaileddescription>
+    <location file="/home/david/Documents/Estructuras/Proyectobonito/include/Point2D.hh" line="10" column="1" bodyfile="/home/david/Documents/Estructuras/Proyectobonito/include/Point2D.hh" bodystart="9" bodyend="100"/>
+    <listofallmembers>
+      <member refid="class_point2_d_1ae18c4797b3cd5ffceee102b4ff0b7e73" prot="public" virt="non-virtual"><scope>Point2D</scope><name>assignn</name></member>
+      <member refid="class_point2_d_1a59c6ec04c22e19fe1edc9f62665343d4" prot="public" virt="non-virtual"><scope>Point2D</scope><name>get</name></member>
+      <member refid="class_point2_d_1ad58676dabebce9c9f48dd143c098e14a" prot="public" virt="non-virtual"><scope>Point2D</scope><name>getAm</name></member>
+      <member refid="class_point2_d_1aa59df8b613913c720f865d4fd82e2452" prot="public" virt="non-virtual"><scope>Point2D</scope><name>getLeftMost</name></member>
+      <member refid="class_point2_d_1abe2430aa7078f09496b538da52ef35cb" prot="public" virt="non-virtual"><scope>Point2D</scope><name>getx</name></member>
+      <member refid="class_point2_d_1ab01bf498063e4a6d29fbcff95b06e092" prot="public" virt="non-virtual"><scope>Point2D</scope><name>gety</name></member>
+      <member refid="class_point2_d_1ad9c9f45239103cd5e131e95fe9fbe8da" prot="private" virt="non-virtual"><scope>Point2D</scope><name>next</name></member>
+      <member refid="class_point2_d_1a57271ac24549f078e8766290c22274c9" prot="public" virt="non-virtual"><scope>Point2D</scope><name>onLeft</name></member>
+      <member refid="class_point2_d_1a7298e6af31fcc1d34c6ce2d58cd67fec" prot="public" virt="non-virtual"><scope>Point2D</scope><name>operator!=</name></member>
+      <member refid="class_point2_d_1a236083ccbbd0fc13e36f352ee998c2c5" prot="public" virt="non-virtual"><scope>Point2D</scope><name>operator-</name></member>
+      <member refid="class_point2_d_1a24fd3ed564dbec04a4ea1346d27352c3" prot="public" virt="non-virtual"><scope>Point2D</scope><name>operator==</name></member>
+      <member refid="class_point2_d_1a1b119032e0b60ef27f8610d640e241e2" prot="public" virt="non-virtual"><scope>Point2D</scope><name>Point2D</name></member>
+      <member refid="class_point2_d_1a0e3ee506aac9ae6461bdf6083c7596b0" prot="public" virt="non-virtual"><scope>Point2D</scope><name>Point2D</name></member>
+      <member refid="class_point2_d_1aee8bdb479f01aaea16059b9d7a6e3fe4" prot="public" virt="non-virtual"><scope>Point2D</scope><name>Point2D</name></member>
+      <member refid="class_point2_d_1af1c0abe6d1613d7f3929524ab4de071c" prot="public" virt="non-virtual"><scope>Point2D</scope><name>setNext</name></member>
+      <member refid="class_point2_d_1ab194d1868b4931ea7e2615151477df87" prot="public" virt="non-virtual"><scope>Point2D</scope><name>setNext</name></member>
+      <member refid="class_point2_d_1a0f372c747ea163de8e73029d58de1b74" prot="public" virt="non-virtual"><scope>Point2D</scope><name>sett</name></member>
+      <member refid="class_point2_d_1a36d1b973b13ebf9c634d369119ca8c2e" prot="public" virt="non-virtual"><scope>Point2D</scope><name>setx</name></member>
+      <member refid="class_point2_d_1ae60a82352ce1f39527a97fcd941fa9bc" prot="public" virt="non-virtual"><scope>Point2D</scope><name>sety</name></member>
+      <member refid="class_point2_d_1a42fcad8b63853b1136e6207ace6d555e" prot="private" virt="non-virtual"><scope>Point2D</scope><name>x</name></member>
+      <member refid="class_point2_d_1a55747be726950fdcba27c1ad032bfdf1" prot="private" virt="non-virtual"><scope>Point2D</scope><name>y</name></member>
+      <member refid="class_point2_d_1ada35e16f1d98a3be260ebb4baeba538b" prot="public" virt="non-virtual"><scope>Point2D</scope><name>~Point2D</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

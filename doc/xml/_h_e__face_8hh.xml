@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_h_e__face_8hh" kind="file">
+    <compoundname>HE_face.hh</compoundname>
+    <includes refid="_h_e__edge_8hh" local="yes">HE_edge.hh</includes>
+    <includes local="no">string</includes>
+    <includes local="no">iostream</includes>
+    <includedby refid="_convex_hull_8hh" local="yes">/home/david/Documents/Estructuras/Proyectobonito/include/ConvexHull.hh</includedby>
+    <includedby refid="_h_e__edge_8hh" local="yes">/home/david/Documents/Estructuras/Proyectobonito/include/HE_edge.hh</includedby>
+    <includedby refid="_h_e__face_8cpp" local="yes">/home/david/Documents/Estructuras/Proyectobonito/source/HE_face.cpp</includedby>
+    <incdepgraph>
+      <node id="22">
+        <label>string</label>
+      </node>
+      <node id="23">
+        <label>iostream</label>
+      </node>
+      <node id="19">
+        <label>HE_edge.hh</label>
+        <link refid="_h_e__edge_8hh_source"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>HE_vert.hh</label>
+        <link refid="_h_e__vert_8hh_source"/>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>Point2D.hh</label>
+        <link refid="_point2_d_8hh_source"/>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>/home/david/Documents/Estructuras/Proyectobonito/include/HE_face.hh</label>
+        <link refid="HE_face.hh"/>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="25">
+        <label>/home/david/Documents/Estructuras/Proyectobonito/include/ConvexHull.hh</label>
+        <link refid="_convex_hull_8hh_source"/>
+      </node>
+      <node id="26">
+        <label>/home/david/Documents/Estructuras/Proyectobonito/include/HE_edge.hh</label>
+        <link refid="_h_e__edge_8hh_source"/>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>/home/david/Documents/Estructuras/Proyectobonito/include/HE_vert.hh</label>
+        <link refid="_h_e__vert_8hh_source"/>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>/home/david/Documents/Estructuras/Proyectobonito/include/HE_face.hh</label>
+        <link refid="HE_face.hh"/>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_h_e__face" prot="public">HE_face</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>HE_FACE_H</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>HE_FACE_H</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&quot;HE_edge.hh&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_h_e__edge" kindref="compound">HE_edge</ref>;</highlight></codeline>
+<codeline lineno="8"></codeline>
+<codeline lineno="11" refid="class_h_e__face" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_h_e__face" kindref="compound">HE_face</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="15"></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_h_e__face_1a5a42e8e7beb962f0d0c27108a61ff79d" kindref="member">HE_face</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="20"></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_h_e__face_1a5a42e8e7beb962f0d0c27108a61ff79d" kindref="member">HE_face</ref>(<ref refid="class_h_e__edge" kindref="compound">HE_edge</ref>*);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_h_e__face_1a6b4e8b2669e7cdf54b97af891364544c" kindref="member">~HE_face</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="27"></codeline>
+<codeline lineno="30" refid="class_h_e__face_1a11989659578fb40c2586d452d298eb03" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_h_e__edge" kindref="compound">HE_edge</ref>*<sp/><ref refid="class_h_e__face_1a11989659578fb40c2586d452d298eb03" kindref="member">edge</ref>;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>HE_FACE_H</highlight></codeline>
+    </programlisting>
+    <location file="/home/david/Documents/Estructuras/Proyectobonito/include/HE_face.hh"/>
+  </compounddef>
+</doxygen>

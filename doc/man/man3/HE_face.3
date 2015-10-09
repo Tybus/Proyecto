@@ -1,0 +1,62 @@
+.TH "HE_face" 3 "Thu Oct 8 2015" "Version 1.1" "Proyecto Individual" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+HE_face \- 
+.PP
+La clase \fBHE_face\fP\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <HE_face\&.hh>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBHE_face\fP (void)"
+.br
+.RI "\fIConstructor sin parámetros\&. \fP"
+.ti -1c
+.RI "\fBHE_face\fP (\fBHE_edge\fP *)"
+.br
+.RI "\fIConstructor con parametro HE_edge*\&. \fP"
+.ti -1c
+.RI "\fB~HE_face\fP (void)"
+.br
+.RI "\fIMétodo Destructor\&. \fP"
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBHE_edge\fP * \fBedge\fP"
+.br
+.RI "\fIUna variable pública\&. \fP"
+.in -1c
+.SH "Detailed Description"
+.PP 
+La clase \fBHE_face\fP\&. 
+
+Esta clase implementa una cara de la figura\&. 
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "HE_face::HE_face (void)"
+
+.PP
+Constructor sin parámetros\&. Este constructor no recibe ninguna parámetro\&. Es el constructor estandar\&. 
+.SS "HE_face::HE_face (\fBHE_edge\fP *edge)"
+
+.PP
+Constructor con parametro HE_edge*\&. Construye un objeto cara que apunta al primer medio borde de la figura\&. 
+.SH "Member Data Documentation"
+.PP 
+.SS "\fBHE_edge\fP* HE_face::edge"
+
+.PP
+Una variable pública\&. Esta variable se encarga de guardar la direccion del primer medio borde perteneciente a la figura\&. 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Proyecto Individual from the source code\&.

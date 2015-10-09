@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_convex_hull" kind="class" prot="public">
+    <compoundname>ConvexHull</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_convex_hull_1a0ff31f4508984cd36c2558b517c4d9ac" prot="public" static="no" mutable="no">
+        <type><ref refid="class_h_e__face" kindref="compound">HE_face</ref> *</type>
+        <definition>HE_face* ConvexHull::convexhull</definition>
+        <argsstring></argsstring>
+        <name>convexhull</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/david/Documents/Estructuras/Proyectobonito/include/ConvexHull.hh" line="16" column="1" bodyfile="/home/david/Documents/Estructuras/Proyectobonito/include/ConvexHull.hh" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_convex_hull_1a8e0b5b3ce10734fac4c08d219b942928" prot="public" static="no" mutable="no">
+        <type><ref refid="class_point2_d" kindref="compound">Point2D</ref></type>
+        <definition>Point2D ConvexHull::points</definition>
+        <argsstring></argsstring>
+        <name>points</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/david/Documents/Estructuras/Proyectobonito/include/ConvexHull.hh" line="17" column="1" bodyfile="/home/david/Documents/Estructuras/Proyectobonito/include/ConvexHull.hh" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_convex_hull_1a41e888f95597a80d42a90060e1dba114" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ConvexHull::ConvexHull</definition>
+        <argsstring>(void)</argsstring>
+        <name>ConvexHull</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/david/Documents/Estructuras/Proyectobonito/include/ConvexHull.hh" line="11" column="1" bodyfile="/home/david/Documents/Estructuras/Proyectobonito/source/ConvexHull.cpp" bodystart="7" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="function" id="class_convex_hull_1ab35ffd84a05135cf8e4c6f98db103274" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ConvexHull::ConvexHull</definition>
+        <argsstring>(Point2D)</argsstring>
+        <name>ConvexHull</name>
+        <param>
+          <type><ref refid="class_point2_d" kindref="compound">Point2D</ref></type>
+          <defname>points</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/david/Documents/Estructuras/Proyectobonito/include/ConvexHull.hh" line="12" column="1" bodyfile="/home/david/Documents/Estructuras/Proyectobonito/source/ConvexHull.cpp" bodystart="10" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_convex_hull_1a3c2424e4f2e68b38285a236ea33014fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ConvexHull::ConvexHull</definition>
+        <argsstring>(Point2D, HE_face *)</argsstring>
+        <name>ConvexHull</name>
+        <param>
+          <type><ref refid="class_point2_d" kindref="compound">Point2D</ref></type>
+        </param>
+        <param>
+          <type><ref refid="class_h_e__face" kindref="compound">HE_face</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/david/Documents/Estructuras/Proyectobonito/include/ConvexHull.hh" line="13" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_convex_hull_1abd4e80afef71c40593d8c50233bde05d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ConvexHull::ConvexHull</definition>
+        <argsstring>(const ConvexHull &amp;obj)</argsstring>
+        <name>ConvexHull</name>
+        <param>
+          <type>const <ref refid="class_convex_hull" kindref="compound">ConvexHull</ref> &amp;</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/david/Documents/Estructuras/Proyectobonito/include/ConvexHull.hh" line="14" column="1" bodyfile="/home/david/Documents/Estructuras/Proyectobonito/source/ConvexHull.cpp" bodystart="2" bodyend="6"/>
+      </memberdef>
+      <memberdef kind="function" id="class_convex_hull_1ada73a790143a97f4dfe13580c026c6db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ConvexHull::~ConvexHull</definition>
+        <argsstring>(void)</argsstring>
+        <name>~ConvexHull</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/david/Documents/Estructuras/Proyectobonito/include/ConvexHull.hh" line="15" column="1" bodyfile="/home/david/Documents/Estructuras/Proyectobonito/source/ConvexHull.cpp" bodystart="15" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_convex_hull_1aabcaae62d10838754d6d5451a88ee61b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ConvexHull::getLeftMost</definition>
+        <argsstring>(void)</argsstring>
+        <name>getLeftMost</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/david/Documents/Estructuras/Proyectobonito/include/ConvexHull.hh" line="19" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_convex_hull_1a5c0f746f571b0f3535917b926cc84027" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ConvexHull::getConvexHull</definition>
+        <argsstring>(void)</argsstring>
+        <name>getConvexHull</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/david/Documents/Estructuras/Proyectobonito/include/ConvexHull.hh" line="20" column="1" bodyfile="/home/david/Documents/Estructuras/Proyectobonito/source/ConvexHull.cpp" bodystart="17" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ConvexHull</label>
+        <link refid="class_convex_hull"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>points</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>convexhull</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>HE_edge</label>
+        <link refid="class_h_e__edge"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>next</edgelabel>
+          <edgelabel>pareja</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>face</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>vert</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Point2D</label>
+        <link refid="class_point2_d"/>
+      </node>
+      <node id="3">
+        <label>HE_face</label>
+        <link refid="class_h_e__face"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>edge</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>HE_vert</label>
+        <link refid="class_h_e__vert"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>edge</edgelabel>
+        </childnode>
+        <childnode refid="2" relation="usage">
+          <edgelabel>point</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/david/Documents/Estructuras/Proyectobonito/include/ConvexHull.hh" line="9" column="1" bodyfile="/home/david/Documents/Estructuras/Proyectobonito/include/ConvexHull.hh" bodystart="9" bodyend="21"/>
+    <listofallmembers>
+      <member refid="class_convex_hull_1a0ff31f4508984cd36c2558b517c4d9ac" prot="public" virt="non-virtual"><scope>ConvexHull</scope><name>convexhull</name></member>
+      <member refid="class_convex_hull_1a41e888f95597a80d42a90060e1dba114" prot="public" virt="non-virtual"><scope>ConvexHull</scope><name>ConvexHull</name></member>
+      <member refid="class_convex_hull_1ab35ffd84a05135cf8e4c6f98db103274" prot="public" virt="non-virtual"><scope>ConvexHull</scope><name>ConvexHull</name></member>
+      <member refid="class_convex_hull_1a3c2424e4f2e68b38285a236ea33014fe" prot="public" virt="non-virtual"><scope>ConvexHull</scope><name>ConvexHull</name></member>
+      <member refid="class_convex_hull_1abd4e80afef71c40593d8c50233bde05d" prot="public" virt="non-virtual"><scope>ConvexHull</scope><name>ConvexHull</name></member>
+      <member refid="class_convex_hull_1a5c0f746f571b0f3535917b926cc84027" prot="private" virt="non-virtual"><scope>ConvexHull</scope><name>getConvexHull</name></member>
+      <member refid="class_convex_hull_1aabcaae62d10838754d6d5451a88ee61b" prot="private" virt="non-virtual"><scope>ConvexHull</scope><name>getLeftMost</name></member>
+      <member refid="class_convex_hull_1a8e0b5b3ce10734fac4c08d219b942928" prot="public" virt="non-virtual"><scope>ConvexHull</scope><name>points</name></member>
+      <member refid="class_convex_hull_1ada73a790143a97f4dfe13580c026c6db" prot="public" virt="non-virtual"><scope>ConvexHull</scope><name>~ConvexHull</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
